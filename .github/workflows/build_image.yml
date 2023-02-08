@@ -55,7 +55,7 @@ jobs:
           # 镜像推送时间
           push: ${{ github.event_name != 'pull_request' }}
           # 给清单打上多个标签
-          tags: tongjiann/xiw:latest
+          tags: tongjiann/frpc:latest
       - name: send info to ding
         # You may pin to the exact commit or the version.
         # uses: indiesdev/curl@5f733a4ab67799ec174b9b9b3f8d78100ae084e8
