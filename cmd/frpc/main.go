@@ -20,5 +20,6 @@ import (
 )
 
 func main() {
+	sub.InitFrpcIni()
 	sub.Execute()
 }
